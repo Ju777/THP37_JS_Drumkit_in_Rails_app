@@ -2,6 +2,21 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.4'
+gem 'table_print', '~> 1.5', '>= 1.5.7'
+gem 'faker', '~> 2.20'
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
+gem 'devise', '~> 4.8', '>= 4.8.1'
+# gem 'stripe', '~> 6.0'
+# gem 'aws-sdk-s3', require: false
+
+
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg', '>= 0.18', '< 2.0'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.8'
