@@ -14,6 +14,6 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
-
+//= require bootstrap.bundle
 //= require hello
 //= require drumkit
