@@ -2,12 +2,9 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.4'
-gem 'table_print', '~> 1.5', '>= 1.5.7'
-gem 'faker', '~> 2.20'
+
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
-gem 'devise', '~> 4.8', '>= 4.8.1'
-# gem 'stripe', '~> 6.0'
-# gem 'aws-sdk-s3', require: false
+
 
 
 group :development, :test do

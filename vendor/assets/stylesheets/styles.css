@@ -1,0 +1,29 @@
+.all_keys_container {
+  border: 1px solid blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 300px;
+}
+
+.one_key_container {
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.07s;
+}
+
+.key_playing {
+  background-color: black;
+  color: white;
+  transform: scale(1.5);
+}
+
+kbd {
+  text-align: center;
+  font-size: 15px;
+}
