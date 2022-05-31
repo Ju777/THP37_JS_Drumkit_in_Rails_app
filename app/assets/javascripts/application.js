@@ -16,4 +16,3 @@
 //= require_tree .
 //= require bootstrap.bundle
 //= require hello
-//= require drumkit

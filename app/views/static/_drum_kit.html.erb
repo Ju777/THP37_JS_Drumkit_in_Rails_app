@@ -37,7 +37,8 @@
     <kbd>L 76<br/>Sound XX</kbd>
   </div>
 
-<%# <%= audio_tag "01_caisse_claire.mp3", id: "sound_81" %> 
+
+<!-- Ajout des tags audio en syntaxe rails -->
 <%= audio_tag "do.wav", id: "sound_83" %>
 <%= audio_tag "re.wav", id: "sound_68" %>
 <%= audio_tag "mi.wav", id: "sound_70" %>
@@ -48,5 +49,9 @@
 <%= audio_tag "do_octave.wav", id: "sound_76" %>
 
 
- 
+<!-- Appel du script drumkit.js en syntaxe rails -->
+<% content_for :head do %>
+  <%= javascript_include_tag "drumkit.js" %>
+<% end %>
+
 </div>

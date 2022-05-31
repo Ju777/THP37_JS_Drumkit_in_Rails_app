@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
-  def home
+  def other_page
 
   end
 

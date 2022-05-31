@@ -28,6 +28,7 @@ function drumKeyEffect() {
 
     // Ajout d'un son d'instrument
     // Récup de l'élément audio à jouer suite au keydown
+
     sound_to_play = document.querySelector(
       `audio[id="sound_${event.keyCode}"]`
     );
